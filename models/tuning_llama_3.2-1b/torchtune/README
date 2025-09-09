@@ -1,0 +1,9 @@
+
+We used:
+- Python 3.9
+- NVIDIA Driver Version: 570.124.06
+- NVIDIA CUDA Version: 12.8 
+- torch2.7.1+cu128
+- torchtune 0.6.1
+
+requirements.txt was obtained using pip freeze

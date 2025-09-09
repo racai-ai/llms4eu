@@ -1,0 +1,13 @@
+For these experiments, we used the configurations from here https://github.com/OpenLLM-Ro/lm-evaluation-harness , commit 819f267e0cb7555f8c14f805bd0866c455da22fd.
+
+To get this exact same code:
+git clone https://github.com/OpenLLM-Ro/lm-evaluation-harness
+git checkout 819f267e0cb7555f8c14f805bd0866c455da22fd
+
+Relevant tasks were copied into a newer version of lm_eval ( commit 6d2abda4fd171e68a8789330c4149e37c1ca0bda ), see requirements.txt
+
+We used:
+- Python 3.9
+- NVIDIA Driver Version: 570.124.06
+- NVIDIA CUDA Version: 12.8 
+- torch2.7.1+cu128
